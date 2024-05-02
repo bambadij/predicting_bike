@@ -30,10 +30,11 @@ Images or additional files needed to make your notebook or report complete can b
 ### Dependencies
 
 ```
-Python 3.7
-MXNet 1.8
-Pandas >= 1.2.4
-AutoGluon 0.2.0 
+!pip install -U pip
+!pip install -U setuptools wheel
+!pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cpu
+!apt-get update; apt-get install -y graphviz graphviz-dev
+!pip install autogluon kaggle pygraphviz dask[dataframe]
 ```
 
 ### Installation
