@@ -20,6 +20,7 @@ Adding additional feature led to improve our model's perfomance.The new feature 
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: Add your explanation
 
+After adding additional features, our model's performance improved noticeably. This enhancement suggests that the new features provided valuable information that was previously missing or underrepresented in the dataset
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
@@ -34,24 +35,24 @@ Understanding why the model makes certain predictions.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default|default|default|1.80430|
-|add_features|default|default|default|1.81499|
-|hpo|hyperparameters_RF|hyperparameters_XGB|hyperparameters_KNN|1.83641|
+|initial|default|default|default|1.80660|
+|add_features|default|default|default|0.69432|
+|hpo|hyperparameters_RF|hyperparameters_XGB|hyperparameters_KNN|0.52963|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](img/model_train_score1.png)
+![model_train_score.png](img/model_train_score2.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score1.png)
+![model_test_score.png](img/model_test_score2.png)
 
 ## Summary
 TODO: Add your explanation
-The first initially the model achieved a score of 1.8043, which slightly improved to 1.81499 after adding additional features. However, after performing hyperparameter optimization, the score further increased to 1.83641, indicating significant improvement in predictive performance.
-The second plot the training scores decreased as the model progressed through the stages. Initially, the model achieved a score of -52.767953, which slightly decreased to -52.533786 after adding additional features. 
+The first initially the model achieved a score of 1.8043, which slightly improved to 1.80660 after adding additional features. However, after performing hyperparameter optimization, the score further increased to 0.69432, indicating significant improvement in predictive performance.
+The second plot the training scores decreased as the model progressed through the stages. Initially, the model achieved a score of -52.767953, which slightly decreased to -30.165350 ,  -33.946753 after adding additional features. 
 
